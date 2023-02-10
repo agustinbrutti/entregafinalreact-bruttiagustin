@@ -1,0 +1,57 @@
+.navBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(208,208,208);
+    background: linear-gradient(79deg, rgb(127, 13, 180) 0%, rgb(137, 4, 124) 100%);
+    align-items: center;
+    justify-content: center;
+}
+
+.navBarLogo{
+    justify-self: flex-start;
+    padding: 3%;
+    h1{
+        color: rgb(255, 254, 254);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.navBarUl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.navBarLi{
+height: 50%;
+width: 25%;
+}
+
+.navBarItem{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    a{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.navBarItem:hover{
+    background-color: blueviolet;
+}
